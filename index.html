@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Magazine Article</title>
+</head>
+<body>
+    <main>
+        <section class="heading">
+            <header class="hero">
+                <img src="images/logo.jpg" alt="Averetech logo" loading="lazy" class="hero-image">
+                <h1 class="hero-title">OUR BRAND NEW COMPANY</h1>
+                <p class="hero-subtitle">
+                    This is a new company that focuses on the modern technologies to bring your brand to life.
+                </p>
+            </header>
+
+            <div class="author">
+                <p class="author-name">
+                    By <a href="#" target="_
+                    " rel="noreferrer">Averetech</a>
+                </p>
+                <p class="publish-date">May 19, 2023</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        </section>
+
+        <section class="text">
+            <p class="first-paragraph">Soon our company will be designing websites and graphics for you. We exist solely for the purpose to breath life to your brand.</p>
+            <blockquote>
+                <hr>
+                <p class="quote">We are happy to be of service to you!</p>
+                <hr>
+            </blockquote>
+            <p>With the work that we do, we will make sure to put a smile on your face.</p>
+        </section>
+
+        <section class="text text-with-images">
+            <div class="founder">
+                <h3 class="about">About Me</h3>
+                <p>I love to learn more and more about the new technologies of this modern world. I have a passion to solve problems as I know that technology can bring true revolution. I am born with the power of curiosity.I am good in innovating special websites to solve a problem with ease.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Websites</li>
+                        <li><span>Graphics</span><br>Graphic Design</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>Built Projects</li>
+                        <li>Attended Hackathons</li>
+                    </ul>
+                </div>
+            </div>
+            <aside class="image-wrapper">
+                <img src="images/Zenande.jpg" alt="My photo" loading="lazy" style: width="600" height="600">
+            </aside>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="magazine.js"></script>
+</body>
+</html>
